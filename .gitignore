@@ -1,0 +1,13 @@
+#  Gradle
+.gradle
+build
+
+# Intellij
+.idea
+*.im?
+
+# OSX
+.DS_Store
+
+# keys
+*.pem
