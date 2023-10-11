@@ -81,6 +81,13 @@
   animation-duration: 1.5s;
 }
 
+.slideshow-container img {
+   border: 1px solid #2F6DD0;
+   display:block;
+   margin:auto;
+   width:80%
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
