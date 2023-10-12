@@ -15,6 +15,20 @@
     <link href="./carousel.css" rel="stylesheet">
     <script src="./carousel.js"></script>
 
+    <script src="https://getinsights.io/js/insights.js"></script>
+    <script>
+        insights.init('BKzu3GaAx8pNerbC');
+
+        insights.trackPages( {
+            parameters: {
+                locale: insights.parameters.locale(),
+                screenSize: insights.parameters.screenType(),
+                referrer: insights.parameters.referrer()
+            }
+           });
+    </script>
+
+
 </head>
 <body>
 <div id="header">
@@ -79,7 +93,6 @@
     <script>
     let slideIndex = 1;
     showSlides(slideIndex);
-
     </script>
     <br>
 
