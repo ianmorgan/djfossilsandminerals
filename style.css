@@ -67,11 +67,6 @@ h1 {
 
 @media only screen and ( max-width: 600px ) {
 
-    .slideshow-container {
-        max-width: 100%!important;
-        _border: 1px solid red;
-    }
-
     h1 {
         font-size: 32px!important;
     }
@@ -90,5 +85,13 @@ h1 {
 
     #map-mobile {
          display: block;
+    }
+
+    /* tweak carousel */
+     .slideshow-container {
+        max-width: 100%!important;
+    }
+    .prev, .next {
+       padding: 10px;
     }
 }
