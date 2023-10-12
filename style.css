@@ -1,0 +1,80 @@
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin : 10px;
+    background-color: #eee;
+}
+
+#page p {
+    text-align: center;
+}
+
+#header {
+     padding-top: 1px;
+     padding-bottom: 1px;
+     background-color : #2F6DD0;
+     color : #eee;
+}
+
+h1 {
+    font-size: 48px!important;
+}
+
+#footer {
+     padding: 10px;
+     background-color : #D0922F;
+     color : #222;
+}
+
+#info {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px;
+    text-align: center;
+}
+
+#content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:10px;
+}
+
+#map {
+   margin: auto;
+   width: 500px;
+   padding-bottom: 10px;
+}
+
+#footer {
+  font-size: 14px;
+  font-family: 'Arial';
+}
+
+#footer p {
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+@media only screen and ( max-width: 600px ) {
+
+    .slideshow-container {
+        max-width: 100%!important;
+        _border: 1px solid red;
+    }
+
+    h1 {
+        font-size: 32px!important;
+    }
+
+    body {
+         font-size: 24px!important;
+    }
+
+    #footer {
+      font-size: 18px!important;
+    }
+
+}
