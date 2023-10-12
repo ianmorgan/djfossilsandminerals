@@ -86,11 +86,10 @@ h1 {
     }
 
     #map {
-        display: none;
+        display: none!important;
     }
 
     #map-mobile {
          display: block;
     }
-
 }
